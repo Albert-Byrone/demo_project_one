@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="#">
+        <div id="user__input">
+          <div class="input__box">
+            <input type="text" placeholder="Enter your marks" id="marks" />
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" onclick="submitData()" />
+        </div>
+      </form>
+
+      <div class="popup" id="popup">
+        <img src="./assets/images/404-tick.png" alt="image" />
+        <p id="result"></p>
+        <button type="button" onclick="closePopup()">Exit</button>
+      </div>
+    </div>
+
+  </body>
+  <script src="./assets/js/script.js"></script>
+
+</html>
